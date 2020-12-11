@@ -32,10 +32,16 @@
 /* portfolio.html */
 
 #projecttext{
+    position: relative;
     background-image: url("img/background.png");
     background-repeat: no-repeat;
     background-size: 100%;
     background-color: white;
     max-width: 100%;
     color: #F0DBFA;
+}
+
+#imgprojecttext{
+    width: 100%;
+    max-height: 100%;
 }
