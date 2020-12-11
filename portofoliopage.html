@@ -7,206 +7,279 @@
      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
  
      <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="style.css">
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
- 
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
      <title>Salsa | Portfolio</title>
-   </head>
-   <body>
-
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+         <!-- Navbar -->
+         <nav id="nav"class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
             <div class="container">
-                <a class="navbar-brand" href="#">Salsabila Azaria</a>
+                <!-- <a class="navbar-brand" href="#">Salsabila Azaria</a> -->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-link" href="portofoliopage.html">Portfolio</a>
-                    <a class="nav-link" href="https://github.com/salsabilaazaria"target="_blank">GitHub</a>
-                    <a class="nav-link" href="https://www.linkedin.com/in/salsabilaazaria/"target="_blank">LinkedIn</a>
-                </div>
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="portofoliopage.html">PROJECT</a>
+                        <!-- <a class="nav-link" href="https://github.com/salsabilaazaria"target="_blank"><i class="fa fa-github" style="font-size:28px"></i></a> -->
+                        <!-- <a class="nav-link" href="https://www.linkedin.com/in/salsabilaazaria/"target="_blank"><i class="fa fa-linkedin-square" style="font-size:28px"></i></a> -->
+                           <a class="nav-link" href="https://github.com/salsabilaazaria"target="_blank">GITHUB</a>
+                        <a class="nav-link" href="https://www.linkedin.com/in/salsabilaazaria/"target="_blank">LINKEDIN</a>
+                    </div>
                 </div>
             </div>
           </nav>
+   </head>
+   <body>
+    <br><br>
           <!-- Name  -->
-          <div class="jumbotron jumbotron-fluid">
-             <br>
+          <div class="banner" id="banner">
+            <div class="container">
             <div class="row">
-                  <div class="col text-center">
-                    <img src="img/foto2.jpg" width="400" >
-                  </div>
-                  <div class="col text-left align-self-center">
-                    <h1>Salsabila Azaria</h1> 
-                    <h2>p o r t f o l i o</h2>
-                    <p class ="text-left">
-                        <!-- email -->
-                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                          <path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z" />
-                        </svg> <a class="text-dark" href="mailto:salsabila.azaria@binus.ac.id">salsabila.azaria@binus.ac.id </a>|
-                        <!-- nohp -->
-                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-telephone" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                          <path fill-rule="evenodd" d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
-                        </svg> <a  class="text-dark" href = "https://wa.me/628159141321">08159141321 </a>
-                        <br>
-                          <!-- DOB -->
-                          <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-calendar-event" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
-                            <path d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z"/>
-                          </svg>
-                          8 July 2001 |
-                          <!-- alamat -->
-                          <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-geo-alt" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" d="M12.166 8.94C12.696 7.867 13 6.862 13 6A5 5 0 0 0 3 6c0 .862.305 1.867.834 2.94.524 1.062 1.234 2.12 1.96 3.07A31.481 31.481 0 0 0 8 14.58l.208-.22a31.493 31.493 0 0 0 1.998-2.35c.726-.95 1.436-2.008 1.96-3.07zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
-                            <path fill-rule="evenodd" d="M8 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-                          </svg> Lippo Karawaci, Tangerang 
-                     </p>
-                  </div>
-            </div>
-          </div>
-
-
-    <div class="row justify-content-center">
-                
-                    
-        <div class="col-12 col-md-5">
-            <div class="text-center">
-                <a target="_blank" class="text-dark" target="_blank" href="https://github.com/salsabilaazaria/urskinapp">
-                    <h4>URSKIN Application</h4></a>
-                <p class="project-des">
-                    Group final project at 3rd and 4th semester. This app is intended to help user do a good care of their skin. 
-                    I created this app with Swift Language and CreateML to build decision tree
+    
+              <div class="col text-right my-4">
+                <img src="img/salsafoto.png"  id="salsafoto"style="max-width: 300px;"alt="">
+    
+              </div>
+              <div class="col" >
+                <h1 id="identity" class="align-middle">Salsabila Azaria</h1>
+                <p >
+                  <!-- email -->
+                  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z" />
+                  </svg> <a class="text-dark" href="mailto:salsabila.azaria@binus.ac.id">salsabila.azaria@binus.ac.id </a> <br>
+                  <!-- nohp -->
+                  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-telephone" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                  </svg> <a  class="text-dark" href = "https://wa.me/628159141321">08159141321  </a>
+                  <br>
+                    <!-- DOB -->
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-calendar-event" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+                      <path d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z"/>
+                    </svg>
+                    8 July 2001 <br>
+                    <!-- alamat -->
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-geo-alt" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M12.166 8.94C12.696 7.867 13 6.862 13 6A5 5 0 0 0 3 6c0 .862.305 1.867.834 2.94.524 1.062 1.234 2.12 1.96 3.07A31.481 31.481 0 0 0 8 14.58l.208-.22a31.493 31.493 0 0 0 1.998-2.35c.726-.95 1.436-2.008 1.96-3.07zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                      <path fill-rule="evenodd" d="M8 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                    </svg> Lippo Karawaci, Tangerang 
+                  
                 </p>
-                <p class="skills">
-                    <span class="bold">Skills:</span> Swift, CreateML
-                </p>
-            </div>
-            <div class="row">
-                <a target="_blank" href="https://github.com/salsabilaazaria/urskinapp">
-                    <img class="img-fluid border border-dark" alt="Responsive image" width="500"src="img/urskin.png">
-                </a>
-            </div>
-  
-        </div>
-        <br><br>
-        <div class="col-12 col-md-5">
-            <div class="text-center">
-                <a target="_blank" class="text-dark"target="_blank" href="https://binusianorg-my.sharepoint.com/personal/salsabila_azaria_binus_ac_id/_layouts/15/guestaccess.aspx?folderid=0915d30221f1d4a3f924aefd4bc5939ca&authkey=ASqQ4w5IYSNmYxH2jK7J8Yw&e=Kk7IQA">
-                    <h4>Art Exhibition Website</h4></a>
-                <p class="project-des">
-                    Group final project at 4th Semester. We create website for an art exhibition. I created Home and Registration Page.
-                </p>
-                <p class="skills">
-                    <span class="bold">Skills:</span> HTML, CSS, JSQuery
-                </p>
-            </div>
-            <div class="row justify-content-center">
-                <a  href="https://binusianorg-my.sharepoint.com/personal/salsabila_azaria_binus_ac_id/_layouts/15/guestaccess.aspx?folderid=0915d30221f1d4a3f924aefd4bc5939ca&authkey=ASqQ4w5IYSNmYxH2jK7J8Yw&e=Kk7IQA" target="_blank">
-                    <img class="img-fluid border border-dark" alt="Responsive image" width="500"src="img/websiteart.png">
-                </a>
-            </div>
-        </div>
-
-        <br><br>
-
-        <div class="col-12 col-md-5">
-            <br><br>
-            <div class="text-center">
-                <a target="_blank" class="text-dark" target="_blank" href="https://docs.google.com/presentation/d/1x78-FxGRsx6NXSBf2L6S44pgPKPMvu5PeUtf7HXkdzE/edit?usp=sharing">
-                    <h4>COVID-19 Data Analytics & Visualization</h4></a>
-                <p class="project-des">
-                    Group final project at 4th Semester. We do the analytic and visualization data using Google Data Studio.
-                </p>
-                <p class="skills">
-                    <span class="bold">Skills:</span> Google Data Studio
-                </p>
-            </div>
-            <div class="row justify-content-center">
-                <a  href="https://docs.google.com/presentation/d/1x78-FxGRsx6NXSBf2L6S44pgPKPMvu5PeUtf7HXkdzE/edit?usp=sharing" target="_blank">
-                    <img class="img-fluid border border-dark" alt="Responsive image" width="500"src="img/covid.jpg">
-                </a>
-            </div>
-  
-        </div>
-        <br><br>
-
-     
-
-        <div class="col-12 col-md-5">
-            <br><br>
-            <div class="text-center">
-                <a target="_blank" class="text-dark" target="_blank" href="https://binusianorg-my.sharepoint.com/personal/salsabila_azaria_binus_ac_id/_layouts/15/guestaccess.aspx?folderid=09f99e7f3ba634be3bf2df73aa27cb65c&authkey=AVKJRhPzx6HAb6tlVmmAe7M&e=DTuXTM">
-                    <h4>Database System</h4></a>
-                <p class="project-des">
-                    3rd semester final project for Database System course. I made a database system for ramenshop
-                </p>
-                <p class="skills">
-                    <span class="bold">Skills:</span> SQL Server
-                </p>
-            </div>
-            <div class="row justify-content-center">
-
-                <a  href="https://binusianorg-my.sharepoint.com/personal/salsabila_azaria_binus_ac_id/_layouts/15/guestaccess.aspx?folderid=09f99e7f3ba634be3bf2df73aa27cb65c&authkey=AVKJRhPzx6HAb6tlVmmAe7M&e=DTuXTM" target="_blank">
-                    
-                    <img class="img-fluid border border-dark" alt="Responsive image" width="500"src="img/erd.png">
-                </a>
-            </div>
-  
-        </div>
-        <br><br>
-
       
-   
-
-        <div class="col-12 col-md-5">
-            <br><br>
-            <div class="text-center">
-                <a target="_blank" class="text-dark" target="_blank" href="https://binusianorg-my.sharepoint.com/personal/salsabila_azaria_binus_ac_id/_layouts/15/guestaccess.aspx?docid=0b8d7b1e6d1204052bf10e84299edf467&authkey=AfsVaY3MJ6ro9DDDJlh55Go&e=JFSaXJ">
-                    <h4>Design</h4></a>
-                <p class="project-des">
-                    Here are my designs on UI Application and logo.
-                </p>
-                <p class="skills">
-                    <span class="bold">Skills:</span> Photoshop, Illustrator
-                </p>
+              </div>
+           
+    
+    
+    
             </div>
-            <div class="row justify-content-center">
-
-                <a  href="https://binusianorg-my.sharepoint.com/personal/salsabila_azaria_binus_ac_id/_layouts/15/guestaccess.aspx?docid=0b8d7b1e6d1204052bf10e84299edf467&authkey=AfsVaY3MJ6ro9DDDJlh55Go&e=JFSaXJ" target="_blank">
-                    
-                    <img class="img-fluid border border-dark" alt="Responsive image" width="500"src="img/design.png">
-                </a>
             </div>
-  
         </div>
-        <br><br>
 
-        <div class="col-12 col-md-5">
-            <br><br>
-            <div class="text-center">
-                <a target="_blank" class="text-dark" target="_blank" href="https://binusianorg-my.sharepoint.com/personal/salsabila_azaria_binus_ac_id/_layouts/15/guestaccess.aspx?folderid=01213217143404040a78f833a90bffd2c&authkey=AdG8Ajx1D0IDs_B5Zrjiumw&e=W2LfvE">
-                    <h4>Video</h4></a>
-                <p class="project-des">
-                    All video project that i have created
-                </p>
-                <p class="skills">
-                    <span class="bold">Skills:</span> After Effect & iMovie
-                </p>
-            </div>
-            <div class="row justify-content-center">
 
-                <a  href="https://binusianorg-my.sharepoint.com/personal/salsabila_azaria_binus_ac_id/_layouts/15/guestaccess.aspx?folderid=01213217143404040a78f833a90bffd2c&authkey=AdG8Ajx1D0IDs_B5Zrjiumw&e=W2LfvE" target="_blank">
+   <div class="container" id="projecttext">
+        <img id="projecttext"src="img/myprojecttext.png" alt="">
+   </div>
+
+    
+   <!-- row 1 -->
+
+    <div class="row justify-content-center mt-4" id="project">
+              <br><br>  
                     
-                    <img class="img-fluid border border-dark" alt="Responsive image" width="500"src="img/video.png">
+        <div class="col-12 col-md-5">
+            <div class="card" >
+                <a target="_blank" href="https://github.com/salsabilaazaria/urskinapp">
+                    <img class="img-fluid" alt="Responsive image" src="img/urskin.png">
                 </a>
-            </div>
-  
+                <div class="card-body">
+                    <a target="_blank" class="text-dark" target="_blank" href="https://github.com/salsabilaazaria/urskinapp">
+                        <h4>URSKIN Application</h4></a>
+                    <p class="project-des">
+                        Group final project at 3rd and 4th semester. This app is intended to help user do a good care of their skin. 
+                        I created this app with Swift Language and CreateML to build decision tree
+                    </p>
+                    <p class="skills">
+                        <span class="bold">Skills:</span> Swift, CreateML
+                    </p>
+                </div>
+              </div>
+            
         </div>
-        <br><br>
+        <div class="col-12 col-md-5">
+            <div class="card" >
+                <a  href="https://github.com/salsabilaazaria/beri.idAndroidApp" target="_blank">   
+                    <img class="img-fluid " alt="Responsive image" width="500"src="img/beriid.png">
+                </a>
+                <div class="card-body">
+                    <a target="_blank" class="text-dark" target="_blank" href="https://binusianorg-my.sharepoint.com/personal/salsabila_azaria_binus_ac_id/_layouts/15/guestaccess.aspx?docid=0b8d7b1e6d1204052bf10e84299edf467&authkey=AfsVaY3MJ6ro9DDDJlh55Go&e=JFSaXJ">
+                        <h4>Beri.id</h4></a>
+                    <p class="project-des">
+                        Group final project at 5th semester. This app is intended to help user do donation.
+                        We created this app with Java and SQLiteDatabase
+                    </p>
+                    <p class="skills">
+                        <span class="bold">Skills:</span> AndroidStudio, Java, SQLiteDatabase
+                    </p>
+                </div>
+                </div>
+            
+        </div>
+      
 
         
     </div>
+
+    <!-- row 2 -->
+    <div class="row justify-content-center mt-4" id="project">
+        <br><br>  
+              
+        <div class="col-12 col-md-5">
+            <div class="card" >
+                <a  href="https://docs.google.com/presentation/d/1x78-FxGRsx6NXSBf2L6S44pgPKPMvu5PeUtf7HXkdzE/edit?usp=sharing" target="_blank">
+                    <img class="img-fluid " alt="Responsive image" width="500"src="img/covid.png">
+                </a>
+                <div class="card-body">
+                    <a target="_blank" class="text-dark" target="_blank" href="https://docs.google.com/presentation/d/1x78-FxGRsx6NXSBf2L6S44pgPKPMvu5PeUtf7HXkdzE/edit?usp=sharing">
+                        <h4>COVID-19 Data Analytics & Visualization</h4></a>
+                    <p class="project-des">
+                        Group final project at 4th Semester. We do the analytic and visualization data using Google Data Studio.
+                    </p>
+                    <p class="skills">
+                        <span class="bold">Skills:</span> Google Data Studio
+                    </p>
+                </div>
+                </div>
+            
+        </div>
+        <div class="col-12 col-md-5">
+            <div class="card" >
+                <a  href="https://binusianorg-my.sharepoint.com/personal/salsabila_azaria_binus_ac_id/_layouts/15/guestaccess.aspx?folderid=09f99e7f3ba634be3bf2df73aa27cb65c&authkey=AVKJRhPzx6HAb6tlVmmAe7M&e=DTuXTM" target="_blank">
+                    
+                    <img class="img-fluid" alt="Responsive image" width="500"src="img/erd.png">
+                </a>
+                <div class="card-body">
+                    <a target="_blank" class="text-dark" target="_blank" href="https://binusianorg-my.sharepoint.com/personal/salsabila_azaria_binus_ac_id/_layouts/15/guestaccess.aspx?folderid=09f99e7f3ba634be3bf2df73aa27cb65c&authkey=AVKJRhPzx6HAb6tlVmmAe7M&e=DTuXTM">
+                        <h4>Database System</h4></a>
+                    <p class="project-des">
+                        3rd semester final project for Database System course. I made a database system for ramenshop
+                    </p>
+                    <p class="skills">
+                        <span class="bold">Skills:</span> SQL Server
+                    </p>
+                </div>
+                </div>
+            
+            
+        </div>
+
+
+  
+    </div>
+     <!-- row 3 -->
+
+     <div class="row justify-content-center mt-4" id="project">
+        <br><br>  
+              
+        <div class="col-12 col-md-5">
+            <div class="card" >
+                <a  href="https://binusianorg-my.sharepoint.com/personal/salsabila_azaria_binus_ac_id/_layouts/15/guestaccess.aspx?folderid=0915d30221f1d4a3f924aefd4bc5939ca&authkey=ASqQ4w5IYSNmYxH2jK7J8Yw&e=Kk7IQA" target="_blank">
+                    <img class="img-fluid" alt="Responsive image" src="img/websiteart.png">
+                </a>
+                <div class="card-body">
+                    <a target="_blank" class="text-dark"target="_blank" href="https://binusianorg-my.sharepoint.com/personal/salsabila_azaria_binus_ac_id/_layouts/15/guestaccess.aspx?folderid=0915d30221f1d4a3f924aefd4bc5939ca&authkey=ASqQ4w5IYSNmYxH2jK7J8Yw&e=Kk7IQA">
+                        <h4>Art Exhibition Website</h4></a>
+                    <p class="project-des">
+                        Group final project at 4th Semester. This Website Prototype for an art exhibition called Fancy Art. <br>I created Home and Registration Page. 
+                    </p>
+                    <br>
+                    <p class="skills">
+                        <span class="bold">Skills:</span> HTML, CSS, JSQuery
+                    </p>
+                </div>
+              </div>
+            
+            
+        </div>
+        <div class="col-12 col-md-5">
+            <div class="card" >
+                <a  href="https://github.com/salsabilaazaria/WebsiteKedaiKopiDelusi" target="_blank">
+                    
+                    <img class="img-fluid " alt="Responsive image" src="img/delusi.png">
+                </a>
+                <div class="card-body">
+                    <a target="_blank" class="text-dark" target="_blank" href="https://github.com/salsabilaazaria/WebsiteKedaiKopiDelusi">
+                        <h4>Kedai Kopi Website</h4></a>
+                    <p class="project-des">
+                        Group final project at 5th Semester. This Website Prototype is for Kedai Kopi Delusi Transaction <br> We used Laravel and phpmyadmin as database.
+                    </p>
+                    <br>
+                    <p class="skills">
+                        <span class="bold">Skills:</span> Laravel 
+                    </p>
+                </div>
+                </div>
+            
+            
+        </div>
+
+
+  
+    </div>
+
+    <!-- row 4 -->
+
+    <div class="row justify-content-center mt-4" id="project">
+        <br><br>  
+              
+
+        <div class="col-12 col-md-5">
+            <div class="card" >
+                <a  href="https://binusianorg-my.sharepoint.com/personal/salsabila_azaria_binus_ac_id/_layouts/15/guestaccess.aspx?docid=0b8d7b1e6d1204052bf10e84299edf467&authkey=AfsVaY3MJ6ro9DDDJlh55Go&e=JFSaXJ" target="_blank">   
+                    <img class="img-fluid " alt="Responsive image" width="500"src="img/design.png">
+                </a>
+                <div class="card-body">
+                    <a target="_blank" class="text-dark" target="_blank" href="https://binusianorg-my.sharepoint.com/personal/salsabila_azaria_binus_ac_id/_layouts/15/guestaccess.aspx?docid=0b8d7b1e6d1204052bf10e84299edf467&authkey=AfsVaY3MJ6ro9DDDJlh55Go&e=JFSaXJ">
+                        <h4>Design</h4></a>
+                    <p class="project-des">
+                        Here are my designs on UI Application and logo.
+                    </p>
+                    <p class="skills">
+                        <span class="bold">Skills:</span> Photoshop, Illustrator
+                    </p>
+                </div>
+                </div>
+            
+        </div>
+
+
+        <div class="col-12 col-md-5">
+            <div class="card" >
+                <a  href="https://binusianorg-my.sharepoint.com/personal/salsabila_azaria_binus_ac_id/_layouts/15/guestaccess.aspx?folderid=01213217143404040a78f833a90bffd2c&authkey=AdG8Ajx1D0IDs_B5Zrjiumw&e=W2LfvE" target="_blank">
+                    
+                    <img class="img-fluid " alt="Responsive image" width="500"src="img/video.png">
+                </a>
+                <div class="card-body">
+                    <a target="_blank" class="text-dark" target="_blank" href="https://binusianorg-my.sharepoint.com/personal/salsabila_azaria_binus_ac_id/_layouts/15/guestaccess.aspx?folderid=01213217143404040a78f833a90bffd2c&authkey=AdG8Ajx1D0IDs_B5Zrjiumw&e=W2LfvE">
+                        <h4>Video</h4></a>
+                    <p class="project-des">
+                        All video project that i have created
+                    </p>
+                    <p class="skills">
+                        <span class="bold">Skills:</span> After Effect & iMovie
+                    </p>
+                </div>
+                </div>
+            
+            
+        </div>
+
+
+  
+    </div>
+   
+      
 
   
 
@@ -219,7 +292,7 @@
      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
    </body>
    <br><br><br>
-   <footer class="small text-center text-muted">
+   <footer id="nav"class="small text-center text-muted">
     <p class="copyright">Copyright &copy; 2020 | Salsabila Azaria</p>
 </footer>
  </html>

@@ -1,0 +1,41 @@
+
+
+#identity{
+  margin-top: 30%;
+  color: #6E180C;
+  font-size: 40pt;
+}
+
+#salsafoto{
+
+   
+    border-top-right-radius: 100px 100px;
+    border-top-left-radius: 100px 100px;
+
+}
+
+#banner{
+    /* font-family: 'Times New Roman', serif; */
+   
+    margin-left: 0;
+    margin-right: 0;
+    background: linear-gradient(
+        #FBDEDA 75%,
+        transparent 10%
+    ) 
+  
+        no-repeat;
+
+}
+
+
+/* portfolio.html */
+
+#projecttext{
+    background-image: url("img/background.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: white;
+    max-width: 100%;
+    color: #F0DBFA;
+}
